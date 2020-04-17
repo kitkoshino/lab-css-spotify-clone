@@ -56,10 +56,11 @@ ul,li {
 
 header {
   display: flex;
-  max-width: 100%;
+  width: 100%;
   background-color: white;
   padding: 10px;
   justify-content: space-between;
+  position: fixed;
 }
 
 ul {
@@ -114,7 +115,7 @@ hr {
 .boxes {
   display: flex;
   justify-content: space-around;
-  margin: 0 90px;
+  margin: 0 90px 90px 90px;
 }
 
 .boxes img {
